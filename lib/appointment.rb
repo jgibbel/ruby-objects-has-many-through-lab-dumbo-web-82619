@@ -1,7 +1,7 @@
 class Appointment 
   
   attr_reader 
-  @@all 
+  @@all =[]
   def self.all 
     @@all
   end 
