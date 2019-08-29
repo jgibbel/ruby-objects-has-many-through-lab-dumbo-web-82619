@@ -22,7 +22,7 @@ class Artist
   end 
   
   def genres 
-    Genre.each.select {}
+    Genre.all.select {|genre| }
   end 
   
 end 
