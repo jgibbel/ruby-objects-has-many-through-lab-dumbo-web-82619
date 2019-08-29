@@ -1,7 +1,8 @@
 class Doctor 
   
   attr_reader :name 
-  @@all 
+  
+  @@all =[]
   def self.all 
     @@all 
   end 
